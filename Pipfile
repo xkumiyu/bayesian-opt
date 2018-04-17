@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+gpy = "*"
+matplotlib = "*"
+gpyopt = "*"
+scikit-learn = "*"
+pandas = "*"
+scikit-optimize = "*"
+tqdm = "*"
+
+[dev-packages]
+ptpython = "*"
+"flake8" = "*"
+isort = "*"
+"autopep8" = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.6"
